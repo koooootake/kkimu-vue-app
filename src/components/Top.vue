@@ -66,6 +66,10 @@ li {
 a {
   color: #42b983;
 }
+.fab {
+  margin: 0 5px;
+  font-size: 18px;
+}
 .fa-gray:before
 {
   color: #808080 ;
