@@ -9,10 +9,12 @@
     <h3>Social</h3>
     <ul>
       <li>
-        <a href="https://twitter.com/_kkimu" target="_blank">Twitter</a>
+        <i class="fab fa-twitter fa-gray"></i>
+        <a href="https://twitter.com/_kkimu" target="_blank">@_kkimu</a>
       </li>
       <li>
-        <a href="https://github.com/kkimu" target="_blank">Github</a>
+        <i class="fab fa-github fa-gray"></i>
+        <a href="https://github.com/kkimu" target="_blank">id: kkimu</a>
       </li>
     </ul>
     <h2>Products</h2>
@@ -64,5 +66,8 @@ li {
 a {
   color: #42b983;
 }
-
+.fa-gray:before
+{
+  color: #808080 ;
+}
 </style>
