@@ -8,16 +8,10 @@
 <script>
 export default {
   name: 'Product',
-  data: () => {
-    return {
-      title: 'おしゃべりや',
-      description: 'テキストを入力するとしゃべる'
-    }
-  }
+  props: ['title', 'description'],
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 p {
   font-family: 'Ruda', sans-serif;

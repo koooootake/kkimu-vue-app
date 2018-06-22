@@ -1,0 +1,34 @@
+[
+  {
+    "title": "おしゃべりや",
+    "description": "入力した文章をキャラクターがおしゃべりしてくれる動画を生成するコミュニケーションツール。文章の内容に応じて、キャラクターの表情や背景が変化する。WebとiOSアプリでリリース。HackDay : Tech賞"
+  },
+  {
+    "title": "blaze spot",
+    "description": "勇気ある行動を記した動画を場所に共有するiOSアプリ。今いる場所に関連する場所を自動抽出して、そこで共有されている動画も閲覧することができる。SPAJAM 本戦"
+  },
+  {
+    "title": "コツクリ",
+    "description": "2つのスマホで1つの子供が生まれる。親となる画像を1枚ずつ選択して、スマホ同士をコツっと合わせると、画像が何であるかを解析してその子供となる画像を自動で生成してくれるiOSアプリ。 SPAJAM 東京C予選 : 最優秀賞 メディア : ITmedia Mobile / Social Game Info"
+  },
+  {
+    "title": "いらすとか",
+    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。いらすとやにマッチしない文章の時は、wikiからワードを抽出しそれらしい1枚の画像に仕上げる。バズった。HackDay : 優秀賞メディア : GAGAZIN / ねとらぼ / livedoor / NAVERまとめ / APP BANK / やじうまWatch / BuzzFeeD etc"
+  },
+  {
+    "title": "BATAMU",
+    "description": "洗濯物自動たたみ機。バズった。HackDay : ブロンズ賞メディア : TV / いっぱい"
+  },
+  {
+    "title": "AirMeet",
+    "description": "懇親会での会話のきっかけをつくるアプリケーション。iBeaconで懇親会に参加しているユーザの端末を管理。その場だけの情報共有を行う。iOSアプリリリース。JPHacks : IBM賞"
+  },
+  {
+    "title": "PoiPet",
+    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなペットボトル専用ゴミ箱。MashupAward : 学生部門賞、アドビシステムズ賞enPiT : 1位GUGEN : Vstone賞"
+  },
+  {
+    "title": "Come on Dog",
+    "description": "呼びかけると主人の元へ駆けつける可愛い犬。大学の課題"
+  }
+]
