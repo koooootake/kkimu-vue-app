@@ -4,8 +4,8 @@
     <h2>About</h2>
     <img src="../assets/icon.png" height="150" >
     <h3>Profile</h3>
-    <p>木邑 和馬 / Kazuma Kimura</p>
-    <p>株式会社サイバーエージェントで働くサーバサイドエンジニア</p>
+    <p>{{name}}</p>
+    <p>{{description}}</p>
     <h3>Social</h3>
     <ul>
       <li>
@@ -15,16 +15,21 @@
         <a href="https://github.com/kkimu" target="_blank">Github</a>
       </li>
     </ul>
+    <h2>Products</h2>
+    <Products/>
   </div>
 </template>
 
 <script>
+import Products from "./Products";
 export default {
   name: 'Top',
+  components: {Products},
   data: () => {
     return {
       title: 'kkimu',
-      description: 'kkimuaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+      name: '木邑 和馬 / Kazuma Kimura',
+      description: '株式会社サイバーエージェントで働くサーバサイドエンジニア',
     }
   }
 }
@@ -59,4 +64,5 @@ li {
 a {
   color: #42b983;
 }
+
 </style>
