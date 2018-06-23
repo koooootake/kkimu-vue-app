@@ -10,17 +10,17 @@
 </template>
 
 <script>
-import Product from "./Product";
+import Product from './Product';
 
 export default {
   name: 'Products',
   components: {Product},
   data: () => {
     return {
-      products: require("../data/products.json")
-    }
+      products: require('../data/products.json')
+    };
   }
-}
+};
 </script>
 
 <style scoped>

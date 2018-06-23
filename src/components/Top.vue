@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import Products from "./Products";
-import Publications from "./Publications";
+import Products from './Products';
+import Publications from './Publications';
 export default {
   name: 'Top',
   components: { Products, Publications },
@@ -34,10 +34,10 @@ export default {
     return {
       title: 'kkimu',
       name: '木邑 和馬 / Kazuma Kimura',
-      description: '株式会社サイバーエージェントで働くサーバサイドエンジニア',
-    }
+      description: '株式会社サイバーエージェントで働くサーバサイドエンジニア。ものづくりとビジネスが好き。',
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

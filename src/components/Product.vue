@@ -9,7 +9,7 @@
 export default {
   name: 'Product',
   props: ['title', 'description'],
-}
+};
 </script>
 
 <style scoped>

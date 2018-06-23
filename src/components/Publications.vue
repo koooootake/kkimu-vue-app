@@ -11,17 +11,17 @@
 </template>
 
 <script>
-import Publication from "./Publication";
+import Publication from './Publication';
 
 export default {
   name: 'Publications',
   components: {Publication},
   data: () => {
     return {
-      publications: require("../data/publications.json")
-    }
+      publications: require('../data/publications.json')
+    };
   }
-}
+};
 </script>
 
 <style scoped>

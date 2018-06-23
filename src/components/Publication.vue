@@ -9,7 +9,7 @@
 export default {
   name: 'Publication',
   props: ['text', 'url'],
-}
+};
 </script>
 <style>
 .Publication {
@@ -20,3 +20,4 @@ span.author {
   text-decoration: underline;
 }
 </style>
+
