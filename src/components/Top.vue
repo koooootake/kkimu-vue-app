@@ -19,14 +19,17 @@
     </ul>
     <h2>Products</h2>
     <Products/>
+    <h2>Publications</h2>
+    <Publications/>
   </div>
 </template>
 
 <script>
 import Products from "./Products";
+import Publications from "./Publications";
 export default {
   name: 'Top',
-  components: {Products},
+  components: { Products, Publications },
   data: () => {
     return {
       title: 'kkimu',
@@ -39,6 +42,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.Top {
+  max-width: 1080px;
+  margin: 0px auto;
+}
 h1, h2, h3 {
   font-weight: normal;
   word-wrap: break-word;
@@ -67,7 +74,7 @@ a {
   color: #42b983;
 }
 .fab {
-  margin: 0 5px;
+  margin-right: 5px;
   font-size: 18px;
 }
 .fa-gray:before

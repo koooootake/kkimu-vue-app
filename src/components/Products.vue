@@ -4,6 +4,7 @@
       v-for="product in products"
       v-bind:title="product.title"
       v-bind:description="product.description"
+      :key="product.text"
     />
   </div>
 </template>
