@@ -36,7 +36,7 @@ export default {
       name: '木邑 和馬 / Kazuma Kimura',
       description: '株式会社サイバーエージェントで働くサーバサイドエンジニア。ものづくりとビジネスが好き。',
     };
-  }
+  },
 };
 </script>
 

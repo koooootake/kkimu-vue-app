@@ -22,3 +22,14 @@ rules:
   quotes:
     - error
     - single
+  comma-dangle:
+    - error
+    - always-multiline
+  comma-spacing:
+    - error
+    - before: false
+      after: true
+  comma-style: error
+  object-curly-spacing:
+    - error
+    - always

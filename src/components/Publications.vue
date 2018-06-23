@@ -15,12 +15,12 @@ import Publication from './Publication';
 
 export default {
   name: 'Publications',
-  components: {Publication},
+  components: { Publication },
   data: () => {
     return {
-      publications: require('../data/publications.json')
+      publications: require('../data/publications.json'),
     };
-  }
+  },
 };
 </script>
 

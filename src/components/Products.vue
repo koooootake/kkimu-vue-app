@@ -14,12 +14,12 @@ import Product from './Product';
 
 export default {
   name: 'Products',
-  components: {Product},
+  components: { Product },
   data: () => {
     return {
-      products: require('../data/products.json')
+      products: require('../data/products.json'),
     };
-  }
+  },
 };
 </script>
 
