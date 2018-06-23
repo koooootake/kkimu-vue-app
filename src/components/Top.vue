@@ -17,9 +17,9 @@
         <a href="https://github.com/kkimu" target="_blank">id: kkimu</a>
       </li>
     </ul>
-    <h2>Products</h2>
+    <h2>Product</h2>
     <Products/>
-    <h2>Publications</h2>
+    <h2>Publication</h2>
     <Publications/>
   </div>
 </template>
@@ -58,9 +58,6 @@ h2 {
 }
 h3 {
   font-size: 2rem;
-}
-img {
-  height:
 }
 ul {
   list-style-type: none;
