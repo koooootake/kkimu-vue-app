@@ -25,4 +25,7 @@ export default {
 </script>
 
 <style scoped>
+ol {
+  padding-inline-start: 20px;
+}
 </style>
