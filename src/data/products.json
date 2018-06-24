@@ -17,11 +17,13 @@
   },
   {
     "title": "BATAMU",
-    "description": "洗濯物自動たたみ機。バズった。HackDay : ブロンズ賞メディア : TV / いっぱい"
+    "description": "洗濯物自動たたみ機。バズった。HackDay : ブロンズ賞メディア : TV / いっぱい",
+    "youtube": "https://www.youtube.com/embed/zJU0jmQ5wSo"
   },
   {
     "title": "AirMeet",
-    "description": "懇親会での会話のきっかけをつくるアプリケーション。iBeaconで懇親会に参加しているユーザの端末を管理。その場だけの情報共有を行う。iOSアプリリリース。JPHacks : IBM賞"
+    "description": "懇親会での会話のきっかけをつくるアプリケーション。iBeaconで懇親会に参加しているユーザの端末を管理。その場だけの情報共有を行う。iOSアプリリリース。JPHacks : IBM賞",
+    "youtube": "https://www.youtube.com/embed/owLwtR_Zb_o"
   },
   {
     "title": "PoiPet",
