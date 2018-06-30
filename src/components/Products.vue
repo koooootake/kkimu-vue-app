@@ -5,6 +5,7 @@
       v-bind:title="product.title"
       v-bind:description="product.description"
       v-bind:youtube="product.youtube"
+      v-bind:imageFile="product.imageFile"
       :key="product.text"
     />
   </div>

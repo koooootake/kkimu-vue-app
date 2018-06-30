@@ -4,6 +4,9 @@
     <div v-if="youtube" class="iframe-content">
       <iframe v-bind:src="youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
+    <div v-if="image_src">
+      <img :src="image_src">
+    </div>
     <p class="lead">{{description}}</p>
   </div>
 </template>
@@ -11,7 +14,13 @@
 <script>
 export default {
   name: 'Product',
-  props: ['title', 'description', 'youtube', 'niconico'],
+  props: ['title', 'description', 'youtube', 'niconico', 'imageFile'],
+  data () {
+    const image_src = this.imageFile ? require(`../assets/${this.imageFile}`) : '';
+    return {
+      image_src,
+    };
+  },
 };
 </script>
 
