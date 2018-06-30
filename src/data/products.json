@@ -13,7 +13,8 @@
   },
   {
     "title": "いらすとか",
-    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。いらすとやにマッチしない文章の時は、wikiからワードを抽出しそれらしい1枚の画像に仕上げる。バズった。HackDay : 優秀賞メディア : GAGAZIN / ねとらぼ / livedoor / NAVERまとめ / APP BANK / やじうまWatch / BuzzFeeD etc"
+    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。いらすとやにマッチしない文章の時は、wikiからワードを抽出しそれらしい1枚の画像に仕上げる。バズった。HackDay : 優秀賞メディア : GAGAZIN / ねとらぼ / livedoor / NAVERまとめ / APP BANK / やじうまWatch / BuzzFeeD etc",
+    "image": "../assets/irasutoka.png"
   },
   {
     "title": "BATAMU",
@@ -27,10 +28,12 @@
   },
   {
     "title": "PoiPet",
-    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなペットボトル専用ゴミ箱。MashupAward : 学生部門賞、アドビシステムズ賞enPiT : 1位GUGEN : Vstone賞"
+    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなペットボトル専用ゴミ箱。MashupAward : 学生部門賞、アドビシステムズ賞enPiT : 1位GUGEN : Vstone賞",
+    "youtube": "https://www.youtube.com/embed/dh_vc2HoN-o"
   },
   {
     "title": "Come on Dog",
-    "description": "呼びかけると主人の元へ駆けつける可愛い犬。大学の課題"
+    "description": "呼びかけると主人の元へ駆けつける可愛い犬。大学の課題",
+    "youtube": "https://www.youtube.com/embed/1rLEGmFLxI0"
   }
 ]
