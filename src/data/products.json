@@ -1,42 +1,155 @@
 [
   {
     "title": "おしゃべりや",
-    "description": "入力した文章をキャラクターがおしゃべりしてくれる動画を生成するコミュニケーションツール。文章の内容に応じて、キャラクターの表情や背景が変化する。WebとiOSアプリでリリース。HackDay : Tech賞",
-    "youtube": "https://www.youtube.com/embed/Srpe7sGKiu0"
+    "description": "入力した文章をキャラクターがおしゃべりしてくれる動画を生成するコミュニケーションツール。文章の内容に応じて、キャラクターの表情や背景が変化する。",
+    "youtube": "https://www.youtube.com/embed/Srpe7sGKiu0",
+    "media": [
+      {
+        "text": "HackDay 10th",
+        "description": "Tech賞",
+        "link": "https://hackday.jp/10th/"
+      }
+    ]
   },
   {
     "title": "blaze spot",
-    "description": "勇気ある行動を記した動画を場所に共有するiOSアプリ。今いる場所に関連する場所を自動抽出して、そこで共有されている動画も閲覧することができる。SPAJAM 本戦",
-    "imageFile": "blaze.jpg"
+    "description": "勇気ある行動を記した動画を場所に共有するiOSアプリ。今いる場所に関連する場所を自動抽出して、そこで共有されている動画も閲覧することができる。",
+    "imageFile": "blaze.jpg",
+    "media": [
+      {
+        "text": "SPAJAM",
+        "description": "本戦",
+        "link": "https://spajam.jp/"
+      }
+    ]
   },
   {
     "title": "コツクリ",
-    "description": "2つのスマホで1つの子供が生まれる。親となる画像を1枚ずつ選択して、スマホ同士をコツっと合わせると、画像が何であるかを解析してその子供となる画像を自動で生成してくれるiOSアプリ。 SPAJAM 東京C予選 : 最優秀賞 メディア : ITmedia Mobile / Social Game Info",
-    "imageFile": "cotsukuri.jpg"
+    "description": "2つのスマホで1つの子供が生まれる。親となる画像を1枚ずつ選択して、スマホ同士をコツっと合わせると、画像が何であるかを解析してその子供となる画像を自動で生成してくれるiOSアプリ。",
+    "imageFile": "cotsukuri.jpg",
+    "media": [
+      {
+        "text": "SPAJAM 東京C予選",
+        "description": "最優秀賞",
+        "link": "https://spajam.jp/"
+      },
+      {
+        "text": "ITmedia Mobile",
+        "link": "http://www.itmedia.co.jp/mobile/articles/1706/12/news122.html"
+      },
+      {
+        "text": "Social Game Info",
+        "link": "https://gamebiz.jp/?p=186617"
+      }
+    ]
   },
   {
     "title": "いらすとか",
-    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。いらすとやにマッチしない文章の時は、wikiからワードを抽出しそれらしい1枚の画像に仕上げる。バズった。HackDay : 優秀賞メディア : GAGAZIN / ねとらぼ / livedoor / NAVERまとめ / APP BANK / やじうまWatch / BuzzFeeD etc",
-    "youtube": "https://www.youtube.com/embed/JQ15QgyarLE"
+    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。いらすとやにマッチしない文章の時は、wikiからワードを抽出しそれらしい1枚の画像に仕上げる。",
+    "youtube": "https://www.youtube.com/embed/JQ15QgyarLE",
+    "media": [
+      {
+        "text": "HackDay 2017",
+        "description": "優秀賞",
+        "link": "https://hackday.jp/2017/"
+      },
+      {
+        "text": "GIGAZINE",
+        "link": "http://gigazine.net/news/20170206-irasutoya-irasutoka/"
+      },
+      {
+        "text": "ねとらぼ",
+        "link": "http://nlab.itmedia.co.jp/nl/articles/1702/07/news092.html"
+      },
+      {
+        "text": "livedoor NEWS",
+        "link": "http://news.livedoor.com/article/detail/12638328/"
+      },
+      {
+        "text": "NAVER まとめ",
+        "link": "https://matome.naver.jp/odai/2148636396931684101"
+      },
+      {
+        "text": "APP BANK",
+        "link": "http://www.appbank.net/2017/02/06/iphone-news/1308841.php"
+      },
+      {
+        "text": "やじうまWatch",
+        "link": "http://internet.watch.impress.co.jp/docs/yajiuma/1042606.html"
+      },
+      {
+        "text": "BuzzFeed",
+        "link": "https://www.buzzfeed.com/jp/akikochino/irasutoka"
+      },
+      {
+        "text": "etc.."
+      }
+    ]
   },
   {
     "title": "BATAMU",
-    "description": "洗濯物自動たたみ機。バズった。HackDay : ブロンズ賞メディア : TV / いっぱい",
-    "youtube": "https://www.youtube.com/embed/zJU0jmQ5wSo"
+    "description": "洗濯物自動たたみ機。",
+    "youtube": "https://www.youtube.com/embed/zJU0jmQ5wSo",
+    "media": [
+      {
+        "text": "HackDay 2016",
+        "description": "ブロンズ賞",
+        "link": "https://hackday.jp/2016/"
+      },
+      {
+        "text": "ビートたけしの知らないニュース",
+        "link": "http://www.tv-asahi.co.jp/shiranai/"
+      },
+      {
+        "text": "ねとらぼ",
+        "link": "http://nlab.itmedia.co.jp/nl/articles/1602/29/news157.html"
+      },
+      {
+        "text": "ナリナリドットコム",
+        "link": "https://www.narinari.com/Nd/20160236311.html"
+      },
+      {
+        "text": "etc.."
+      }
+    ]
   },
   {
     "title": "AirMeet",
-    "description": "懇親会での会話のきっかけをつくるアプリケーション。iBeaconで懇親会に参加しているユーザの端末を管理。その場だけの情報共有を行う。iOSアプリリリース。JPHacks : IBM賞",
-    "youtube": "https://www.youtube.com/embed/owLwtR_Zb_o"
+    "description": "懇親会での会話のきっかけをつくるアプリケーション。iBeaconで懇親会に参加しているユーザの端末を管理。その場だけの情報共有を行う。",
+    "youtube": "https://www.youtube.com/embed/owLwtR_Zb_o",
+    "media": [
+      {
+        "text": "JPHacks",
+        "description": "IBM賞",
+        "link": "https://2015.jphacks.com/result/"
+      }
+    ]
   },
   {
     "title": "PoiPet",
-    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなペットボトル専用ゴミ箱。MashupAward : 学生部門賞、アドビシステムズ賞enPiT : 1位GUGEN : Vstone賞",
-    "youtube": "https://www.youtube.com/embed/dh_vc2HoN-o"
+    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなペットボトル専用ゴミ箱。",
+    "youtube": "https://www.youtube.com/embed/dh_vc2HoN-o",
+    "media": [
+      {
+        "text": "MashupAward",
+        "description": "学生部門賞、アドビシステムズ賞",
+        "link": "http://mashupaward.jp/2015/11/final_student/"
+      },
+      {
+        "text": "enPiT",
+        "description": "最優秀賞",
+        "link": "http://www.cs.tsukuba.ac.jp/enPiT/bizapp2015themes/#01"
+      },
+      {
+        "text": "GUGEN",
+        "description": "Vstone賞",
+        "link": "http://gugen.jp/"
+      }
+    ]
   },
   {
     "title": "Come on Dog",
-    "description": "呼びかけると主人の元へ駆けつける可愛い犬。大学の課題",
+    "description": "呼びかけると主人の元へ駆けつける可愛い犬。大学の課題で作成。",
     "youtube": "https://www.youtube.com/embed/1rLEGmFLxI0"
   }
 ]
