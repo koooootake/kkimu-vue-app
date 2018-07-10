@@ -35,8 +35,9 @@ export default {
 
 <style scoped>
 .product {
-  padding-bottom: 10px;
+  margin-bottom: 40px;
   width: 350px;
+  background: #fff;
 }
 figure {
   margin: 0;
@@ -74,7 +75,7 @@ p {
   height: 100%;
 }
 .product-body {
-
+  padding: 5px
 }
 .media {
   font-size: 14px;

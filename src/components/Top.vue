@@ -1,24 +1,29 @@
 <template>
   <div class="Top">
     <h1>{{ title }}</h1>
-    <h2>About</h2>
-    <img src="../assets/icon.png" height="150" >
-    <h3>Profile</h3>
-    <p>{{name}}</p>
-    <p>{{description}}</p>
-    <h3>Social</h3>
-    <ul>
-      <li>
-        <i class="fab fa-twitter fa-gray"></i>
-        <a href="https://twitter.com/_kkimu" target="_blank">@_kkimu</a>
-      </li>
-      <li>
-        <i class="fab fa-github fa-gray"></i>
-        <a href="https://github.com/kkimu" target="_blank">id: kkimu</a>
-      </li>
-    </ul>
-    <h2>Product</h2>
-    <Products/>
+    <div class="About">
+      <h2>About</h2>
+      <img src="../assets/icon.png" height="150" >
+      <h3>Profile</h3>
+      <p>{{name}}</p>
+      <p>{{description}}</p>
+      <h3>Social</h3>
+      <ul>
+        <li>
+          <i class="fab fa-twitter fa-gray"></i>
+          <a href="https://twitter.com/_kkimu" target="_blank">@_kkimu</a>
+        </li>
+        <li>
+          <i class="fab fa-github fa-gray"></i>
+          <a href="https://github.com/kkimu" target="_blank">id: kkimu</a>
+        </li>
+      </ul>
+    </div>
+    <div class="Products">
+      <h2>Product</h2>
+      <Products/>
+    </div>
+
     <h2>Publication</h2>
     <Publications/>
   </div>
@@ -44,7 +49,7 @@ export default {
 <style scoped>
 .Top {
   max-width: 1080px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 h1, h2, h3 {
   font-weight: normal;
@@ -52,6 +57,7 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 4rem;
+  margin: 0;
 }
 h2 {
   font-size: 3rem;
@@ -74,8 +80,7 @@ a {
   margin-right: 5px;
   font-size: 18px;
 }
-.fa-gray:before
-{
+.fa-gray:before {
   color: #808080 ;
 }
 </style>

@@ -27,5 +27,6 @@ export default {
 <style scoped>
 ol {
   padding-inline-start: 20px;
+  margin-bottom: 0;
 }
 </style>
