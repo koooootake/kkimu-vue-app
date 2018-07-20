@@ -2,7 +2,7 @@
   <div class="product">
     <figure class="product-figure">
       <div v-if="youtube" class="iframe-content">
-        <iframe v-bind:src="youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe :src="youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div v-if="image_src" class="image-content">
         <img :src="image_src">
@@ -23,7 +23,7 @@
 <script>
 export default {
   name: 'Product',
-  props: ['title', 'description', 'youtube', 'niconico', 'imageFile', 'media'],
+  props: ['title', 'description', 'youtube', 'imageFile', 'media'],
   data () {
     const image_src = this.imageFile ? require(`../assets/${this.imageFile}`) : '';
     return {

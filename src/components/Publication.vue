@@ -1,7 +1,7 @@
 <template>
   <li class="Publication">
     <span class="lead" v-html="text"></span>
-    <a v-bind:href="url" target="_blank" v-if="url">link</a>
+    <a :href="url" target="_blank" v-if="url">link</a>
   </li>
 </template>
 

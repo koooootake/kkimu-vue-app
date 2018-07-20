@@ -3,8 +3,8 @@
 
     <Publication
       v-for="publication in publications"
-      v-bind:text="publication.text"
-      v-bind:url="publication.url"
+      :text="publication.text"
+      :url="publication.url"
       :key="publication.text"
     />
   </ol>
