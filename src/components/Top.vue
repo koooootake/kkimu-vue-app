@@ -48,7 +48,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .Top {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 h1, h2, h3 {

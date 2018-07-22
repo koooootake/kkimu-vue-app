@@ -27,4 +27,8 @@ export default {
 </script>
 
 <style scoped>
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>

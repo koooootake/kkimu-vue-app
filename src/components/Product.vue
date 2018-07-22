@@ -35,10 +35,11 @@ export default {
 
 <style scoped>
 .product {
-  margin-bottom: 40px;
+  margin: 1em 3em 1em 0;
   width: 350px;
   background: #fff;
 }
+
 figure {
   margin: 0;
 }
@@ -75,7 +76,7 @@ p {
   height: 100%;
 }
 .product-body {
-  padding: 5px
+  padding: 0.5em;
 }
 .media {
   font-size: 14px;
