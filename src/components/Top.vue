@@ -73,9 +73,6 @@ li {
   margin: 0 10px;
   line-height: 2;
 }
-a {
-  color: #42b983;
-}
 .fab {
   margin-right: 5px;
   font-size: 18px;
