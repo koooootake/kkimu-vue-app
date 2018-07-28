@@ -39,7 +39,6 @@ export default {
   width: 350px;
   background: #fff;
 }
-
 figure {
   margin: 0;
 }
@@ -47,10 +46,6 @@ p {
   font-size: 16px;
   font-weight: 700;
   margin-top: 15px;
-}
-.lead {
-  font-size: 14px;
-  font-weight: 400;
 }
 .iframe-content {
   position: relative;
@@ -78,8 +73,8 @@ p {
 .product-body {
   padding: 0.5em;
 }
-.media {
-  font-size: 14px;
-  font-weight: 600;
+.lead {
+  font-size: initial;
+  font-weight: initial;
 }
 </style>
