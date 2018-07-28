@@ -45,7 +45,7 @@
   },
   {
     "title": "いらすとか",
-    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。いらすとやにマッチしない文章の時は、wikiからワードを抽出しそれらしい1枚の画像に仕上げる。",
+    "description": "「いらすとや」のフリー素材を使って、入力した文章を画像に変換するWebアプリ。形態素解析 + キーワード抽出 + Wikipedia API。",
     "youtube": "https://www.youtube.com/embed/JQ15QgyarLE",
     "media": [
       {
@@ -88,7 +88,7 @@
   },
   {
     "title": "BATAMU",
-    "description": "洗濯物自動たたみ機。",
+    "description": "自動洗濯物折りたたみ機。mbed + サーボモータ + ダンボールで作成",
     "youtube": "https://www.youtube.com/embed/zJU0jmQ5wSo",
     "media": [
       {
@@ -115,7 +115,7 @@
   },
   {
     "title": "AirMeet",
-    "description": "懇親会での会話のきっかけをつくるアプリケーション。iBeaconで懇親会に参加しているユーザの端末を管理。その場だけの情報共有を行う。",
+    "description": "懇親会での会話のきっかけをつくる情報共有アプリ。iBeaconで懇親会に参加しているユーザの端末を管理し、その場だけの情報共有を行う。",
     "youtube": "https://www.youtube.com/embed/owLwtR_Zb_o",
     "media": [
       {
@@ -127,7 +127,7 @@
   },
   {
     "title": "PoiPet",
-    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなペットボトル専用ゴミ箱。",
+    "description": "ゴミ捨てや分別が楽しくなる、インタラクティブなIoTゴミ箱。",
     "youtube": "https://www.youtube.com/embed/dh_vc2HoN-o",
     "media": [
       {
@@ -149,7 +149,7 @@
   },
   {
     "title": "Come on Dog",
-    "description": "呼びかけると主人の元へ駆けつける可愛い犬。大学の課題で作成。",
+    "description": "呼びかけると主人の元へ駆けつける可愛い犬。Raspberry piで作成。",
     "youtube": "https://www.youtube.com/embed/1rLEGmFLxI0"
   }
 ]
