@@ -1,5 +1,16 @@
 [
   {
+    "title": "おもいつき",
+    "description": "おもいつきを忘れずに整理するためのTODOアプリ。声で登録、認識、分類、再生が出来る。",
+    "imageFile": "omoitsuki.png",
+    "media": [
+      {
+        "text": "App store",
+        "link": "https://itunes.apple.com/app/omoituki/id1431527107?mt=8%E2%80%9C%3EApp"
+      }
+    ]
+  },
+  {
     "title": "おしゃべりや",
     "description": "入力した文章をキャラクターがおしゃべりしてくれる動画を生成するコミュニケーションツール。文章の内容に応じて、キャラクターの表情や背景が変化する。",
     "youtube": "https://www.youtube.com/embed/Srpe7sGKiu0",
