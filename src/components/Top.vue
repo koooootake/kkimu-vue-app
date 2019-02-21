@@ -39,7 +39,7 @@ export default {
     return {
       title: 'kkimu',
       name: '木邑 和馬 / Kazuma Kimura',
-      description: '株式会社サイバーエージェントで働くサーバサイドエンジニア。ものづくりとビジネスが好き。',
+      description: '株式会社サイバーエージェント/マッチングエージェントで働くバックエンドエンジニア。ものづくりとビジネスが好き。',
     };
   },
 };
