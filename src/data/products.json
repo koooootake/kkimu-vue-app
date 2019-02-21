@@ -1,5 +1,24 @@
 [
   {
+    "title": "まんがか",
+    "description": "タイトルを入力するだけで漫画を自動生成するWebアプリケーション。既存のマンガやアニメのセリフデータを元に、マルコフ連鎖などを用いてタイトルに関連するストーリーを生成。関連するいらすとやの画像をコマに当てはめ漫画を作る。",
+    "youtube": "https://www.youtube.com/embed/dbUVobu2wnw",
+    "media": [
+      {
+        "text": "サイト",
+        "link": "https://mangaka.tech/"
+      },
+      {
+        "text": "ねとらぼ",
+        "link": "https://nlab.itmedia.co.jp/nl/articles/1812/29/news028.html"
+      },
+      {
+        "text": "Yahoo! JAPAN デベロッパーネットワーク",
+        "link": "https://techblog.yahoo.co.jp/event/yahoo_japan_hack_day_2018/"
+      }
+    ]
+  },
+  {
     "title": "おもいつき",
     "description": "おもいつきを忘れずに整理するためのTODOアプリ。声で登録、認識、分類、再生が出来る。",
     "imageFile": "omoitsuki.png",
