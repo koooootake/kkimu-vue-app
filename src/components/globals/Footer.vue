@@ -8,16 +8,16 @@
 export default {
   data(){
     return{
-      copyright: "© 2019 kkimu"
-    }
-  }
-}
+      copyright: '© 2019 kkimu',
+    };
+  },
+};
 </script>
 
 <style>
   footer{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 70px 0;
+    padding: 70px 40px 0;
   }
 </style>
