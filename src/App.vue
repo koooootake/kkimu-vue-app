@@ -1,12 +1,18 @@
 <template>
   <div id="app">
     <router-view/>
+    <footer-view/>
   </div>
 </template>
 
 <script>
+import FooterView from './components/globals/Footer';
+
 export default {
   name: 'App',
+  components: {
+    FooterView: FooterView,
+  },
 };
 </script>
 
@@ -22,6 +28,5 @@ export default {
 a {
   color: #42b983;
   font-weight: 600;
-
 }
 </style>
