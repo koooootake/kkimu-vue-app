@@ -9,13 +9,15 @@
       </div>
     </figure>
     <div class="product-body">
-      <p>{{title}}</p>
+      <h1>{{title}}</h1>
       <p class="lead">{{description}}</p>
-      <span class="media" v-for="(medium, i) in media">
-        <a :href="medium.link" target="_blank">{{medium.text}}</a>
-        <span v-if="medium.description">{{medium.description}}</span>
-        <span v-if="i !== media.length - 1"> / </span>
-      </span>
+      <p class="media">
+        <span v-for="(medium, i) in media">
+          <a :href="medium.link" target="_blank">{{medium.text}}</a>
+          <span v-if="medium.description">{{medium.description}}</span>
+          <span v-if="i !== media.length - 1"> / </span>
+        </span>
+      </p>
     </div>
   </div>
 </template>
@@ -35,7 +37,7 @@ export default {
 
 <style scoped>
 .product {
-  margin: 1em 3em 1em 0;
+  margin: 0 3em 2em 0;
   width: 350px;
   max-width: 100%;
   background: #fff;
@@ -43,10 +45,16 @@ export default {
 figure {
   margin: 0;
 }
-p {
-  font-size: 16px;
+.product-body {
+  padding: 0.7em 0.5em;
+}
+h1 {
+  font-size: 18px;
   font-weight: 700;
-  margin-top: 15px;
+  margin: 0;
+}
+p {
+  margin: 0.5em 0 0;
 }
 .iframe-content {
   position: relative;
@@ -73,11 +81,5 @@ p {
   width: 100%;
   height: 100%;
 }
-.product-body {
-  padding: 0.5em;
-}
-.lead {
-  font-size: initial;
-  font-weight: initial;
-}
+
 </style>
