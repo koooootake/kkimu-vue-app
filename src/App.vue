@@ -28,5 +28,10 @@ export default {
 a {
   color: #42b983;
   font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  color: #53c28f;
+  text-decoration: underline;
 }
 </style>
