@@ -1,6 +1,6 @@
 <template>
   <div class="About">
-    <img src="../assets/icon.png" height="150" >
+    <img src="../assets/icon.png" height="150" alt="kkimu">
     <h3>Profile</h3>
     <p>{{name}}</p>
     <p>{{description}}</p>

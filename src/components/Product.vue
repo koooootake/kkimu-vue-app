@@ -5,7 +5,7 @@
         <iframe :src="youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div v-if="image_src" class="image-content">
-        <img :src="image_src">
+        <img :src="image_src" :alt=title>
       </div>
     </figure>
     <div class="product-body">
