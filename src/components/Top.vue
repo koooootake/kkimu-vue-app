@@ -61,9 +61,11 @@ h1 {
 }
 h2 {
   font-size: 3rem;
+  margin: 0.6em 0;
 }
 h3 {
   font-size: 2rem;
+  margin: 0.6em 0;
 }
 ul {
   list-style-type: none;
