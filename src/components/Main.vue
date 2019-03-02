@@ -1,5 +1,5 @@
 <template>
-  <div class="Top">
+  <main id="content">
     <h1>kkimu</h1>
     <section id="About">
       <h2>About</h2>
@@ -13,7 +13,7 @@
       <h2>Publication</h2>
       <Publications/>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -21,7 +21,7 @@ import About from './About';
 import Products from './Products';
 import Publications from './Publications';
 export default {
-  name: 'Top',
+  name: 'main',
   components: { About, Products, Publications },
 };
 </script>
@@ -46,7 +46,7 @@ h3 {
 </style>
 
 <style scoped>
-.Top {
+main {
   max-width: 1200px;
   margin: 0 auto;
 }
