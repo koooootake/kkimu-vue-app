@@ -37,6 +37,7 @@ export default {
 .product {
   margin: 1em 3em 1em 0;
   width: 350px;
+  max-width: 100%;
   background: #fff;
 }
 figure {
@@ -51,6 +52,7 @@ p {
   position: relative;
 
   width: 350px;
+  max-width: 100%;
   height: 250px;
 }
 .iframe-content iframe {
@@ -62,6 +64,7 @@ p {
 }
 .image-content {
   width: 350px;
+  max-width: 100%;
 }
 .image-content img {
   position: relative;
