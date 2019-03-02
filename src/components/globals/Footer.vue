@@ -15,9 +15,9 @@ export default {
 </script>
 
 <style>
-  footer{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 70px 40px 0;
-  }
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
 </style>

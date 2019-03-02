@@ -31,7 +31,6 @@ export default {
 </script>
 
 <style scoped>
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -42,7 +41,7 @@ li {
 }
 .fab {
   margin-right: 5px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 .fa-gray:before {
   color: #808080 ;

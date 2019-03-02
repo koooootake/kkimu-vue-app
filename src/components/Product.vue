@@ -9,7 +9,7 @@
       </div>
     </figure>
     <div class="product-body">
-      <h1>{{title}}</h1>
+      <p class="title">{{title}}</p>
       <p class="lead">{{description}}</p>
       <p class="media">
         <span v-for="(medium, i) in media">
@@ -48,13 +48,13 @@ figure {
 .product-body {
   padding: 0.7em 0.5em;
 }
-h1 {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0;
-}
 p {
   margin: 0.5em 0 0;
+}
+p.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
 }
 .iframe-content {
   position: relative;
@@ -81,5 +81,4 @@ p {
   width: 100%;
   height: 100%;
 }
-
 </style>
