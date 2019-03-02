@@ -1,59 +1,37 @@
 <template>
   <div class="Top">
-    <h1>{{ title }}</h1>
-    <div class="About">
+    <h1>kkimu</h1>
+    <section id="About">
       <h2>About</h2>
-      <img src="../assets/icon.png" height="150" >
-      <h3>Profile</h3>
-      <p>{{name}}</p>
-      <p>{{description}}</p>
-      <h3>Social</h3>
-      <ul>
-        <li>
-          <i class="fab fa-twitter fa-gray"></i>
-          <a href="https://twitter.com/_kkimu" target="_blank">@_kkimu</a>
-        </li>
-        <li>
-          <i class="fab fa-github fa-gray"></i>
-          <a href="https://github.com/kkimu" target="_blank">id: kkimu</a>
-        </li>
-      </ul>
-    </div>
-    <div class="Products">
+      <About/>
+    </section>
+    <section id="Product">
       <h2>Product</h2>
       <Products/>
-    </div>
-
-    <h2>Publication</h2>
-    <Publications/>
+    </section>
+    <section id="Publication">
+      <h2>Publication</h2>
+      <Publications/>
+    </section>
   </div>
 </template>
 
 <script>
+import About from './About';
 import Products from './Products';
 import Publications from './Publications';
 export default {
   name: 'Top',
-  components: { Products, Publications },
-  data: () => {
-    return {
-      title: 'kkimu',
-      name: '木邑 和馬 / Kazuma Kimura',
-      description: '株式会社サイバーエージェント/マッチングエージェントで働くバックエンドエンジニア。ものづくりとビジネスが好き。',
-    };
-  },
+  components: { About, Products, Publications },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.Top {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+<style>
 h1, h2, h3 {
   font-weight: normal;
   word-wrap: break-word;
+  margin: 0.6em 0;
 }
 h1 {
   font-size: 4rem;
@@ -61,25 +39,15 @@ h1 {
 }
 h2 {
   font-size: 3rem;
-  margin: 0.6em 0;
 }
 h3 {
   font-size: 2rem;
-  margin: 0.6em 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  margin: 0 10px;
-  line-height: 2;
-}
-.fab {
-  margin-right: 5px;
-  font-size: 18px;
-}
-.fa-gray:before {
-  color: #808080 ;
+</style>
+
+<style scoped>
+.Top {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>
