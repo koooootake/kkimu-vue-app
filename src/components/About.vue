@@ -1,6 +1,6 @@
 <template>
   <div class="About">
-    <img src="../assets/icon.png" height="150" alt="kkimu">
+    <img v-lazy="icon_src" height="150" alt="kkimu">
     <h3>Profile</h3>
     <p>{{name}}</p>
     <p>{{description}}</p>
@@ -22,9 +22,11 @@
 export default {
   name: 'About',
   data: () => {
+    const icon_src = require('../assets/icon.png');
     return {
       name: '木邑 和馬 / Kazuma Kimura',
       description: '株式会社サイバーエージェント/マッチングエージェントで働くバックエンドエンジニア。ものづくりとビジネスが好き。',
+      icon_src,
     };
   },
 };
