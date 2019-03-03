@@ -9,6 +9,7 @@ Vue.config.productionTip = false;
 Vue.use(VueLazyload, {
   preLoad: 1.3, // 事前ロードする高さの割合指定
   attempt: 1, // ロード失敗した時のリトライの上限指定
+  lazyComponent: true,
 });
 
 /* eslint-disable no-new */

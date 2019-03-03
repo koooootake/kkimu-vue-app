@@ -1,9 +1,9 @@
 <template>
   <div class="product">
     <figure class="product-figure">
-      <div v-if="youtube" class="iframe-content">
+      <lazy-component v-if="youtube" class="iframe-content">
         <iframe :src="youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
+      </lazy-component>
       <div v-if="image_src" class="image-content">
         <img v-lazy="image_src" :alt=title>
       </div>
